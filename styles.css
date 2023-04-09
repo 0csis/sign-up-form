@@ -1,3 +1,8 @@
+@font-face {
+  font-family: odin;
+  src: url(fonts/Norse-Bold.otf);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -7,9 +12,35 @@ body {
 
 .left-part {
   max-width: 35%;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 img {
   width: 100%;
   max-height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background: rgba(0, 0, 0, 1);
+  opacity: 0.7;
+  width: 100%;
+  justify-content: center;
+}
+
+.odin-logo {
+  width: 4em;
+  margin: 0.5rem;
+}
+
+.odin-text {
+  align-self: center;
+  font-family: odin;
+  font-size: 4rem;
 }
