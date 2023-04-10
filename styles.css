@@ -8,6 +8,7 @@ body {
   padding: 0;
   margin: 0;
   max-height: 99vh;
+  background-image: linear-gradient(to bottom, lightgrey, white, lightgrey);
 }
 
 .left-part {
@@ -45,21 +46,34 @@ img {
 }
 
 footer {
-  position: absolute;
-  bottom: 1rem;
-  left: 29%;
+  position: relative;
+  bottom: 3rem;
   font-size: small;
 }
 
 .right-part {
-  width: 70%;
+}
+
+.right-part-content {
+  width: 65%;
   margin-left: 3rem;
   margin-top: 6rem;
   margin-right: 3rem;
-  flex-shrink: 9;
 }
 
 header {
+}
+
+.right-middle {
+  margin-top: 3rem;
+  font-size: small;
+  font-weight: bold;
+  color: grey;
+}
+
+legend {
+  color: #454545;
+  font-size: medium;
 }
 
 .name {
@@ -96,4 +110,8 @@ header {
 .confirm-password {
   display: flex;
   flex-direction: column;
+}
+
+.create-account {
+  margin-top: 2rem;
 }
