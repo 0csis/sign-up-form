@@ -16,6 +16,8 @@ body {
   position: relative;
   text-align: center;
   color: white;
+  display: flex;
+  overflow: hidden;
 }
 
 img {
@@ -37,6 +39,7 @@ img {
 .odin-logo {
   width: 4em;
   margin: 0.5rem;
+  max-width: 20%;
 }
 
 .odin-text {
@@ -46,8 +49,9 @@ img {
 }
 
 footer {
-  position: relative;
+  position: absolute;
   bottom: 3rem;
+  left: 30%;
   font-size: small;
 }
 
@@ -69,6 +73,10 @@ header {
   font-size: small;
   font-weight: bold;
   color: grey;
+}
+
+input {
+  border-color: #E5E7EB;
 }
 
 legend {
@@ -114,4 +122,25 @@ legend {
 
 .create-account {
   margin-top: 2rem;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.account-already {
+  color: black;
+  margin-top: 1rem;
+}
+
+a {
+  color: #596D48;
+}
+
+input:focus {
+  border-color: blue;
 }

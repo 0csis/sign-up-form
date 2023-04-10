@@ -52,16 +52,21 @@
           <div class="password">
             <div class="password1">
               <label for="password1">PASSWORD</label>
-              <input type="password" id="password1" name="password1">
+              <input type="password" id="password1" name="password1" class="error">
             </div>
             <div class="confirm-password">
               <label for="password2">CONFIRM PASSWORD</label>
-              <input type="password" id="password2" name="password2">
+              <input type="password" id="password2" name="password2" class="error">
             </div>
+            <div id="passwords_match"></div>
           </div>
 
           <div class="create-account">
             <button type="submit">Create account</button>
+          </div>
+
+          <div class="account-already">
+            Already have an account? <a href="">Log in</a>
           </div>
         </form>
       </div>
